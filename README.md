@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img height="150" src="images/profile.jpeg" alt="Renil Soni's Profile Picture" />
+  <img height="150" src="images/profile.jpg" alt="Renil Soni's Profile Picture" />
 </div>
 
 ---
