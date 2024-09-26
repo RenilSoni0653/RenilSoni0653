@@ -18,7 +18,7 @@
 
 ## 🧑‍💻 About Me
 
-I’m Renil Soni, a passionate Java developer with over a year of experience, specializing in backend development. I hold a degree in Information Technology Solutions from Humber College and am currently pursuing Oracle Java SE 8 Programmer I certification. I'm driven by my curiosity to explore new technologies and continuously improve my skills through challenging projects.
+I’m Renil Soni, a passionate Java developer with two years of experience, specializing in backend development. I hold a degree in Information Technology Solutions from Humber College and am currently pursuing Oracle Java SE 8 Programmer I certification. I'm driven by my curiosity to explore new technologies and continuously improve my skills through challenging projects.
 
 ---
 
