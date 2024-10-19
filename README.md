@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,18 +38,49 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
         }
+        .nav-link {
+            color: white !important;
+        }
+        .navbar {
+            margin-bottom: 30px;
+        }
     </style>
 </head>
 <body>
 
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Renil Soni</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#stats">GitHub Stats</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/renil-soni" target="_blank">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <div class="container text-center mt-5">
     <img src="images/profile.JPG" alt="Renil Soni's Profile Picture" class="profile-img" />
     <h1>Renil Soni</h1>
-    <h3>Java Developer | Backend Specialist</h3>
+    <h3>Java Software Developer</h3>
     <a href="https://www.linkedin.com/in/renil-soni" class="btn btn-primary mb-4">Connect on LinkedIn</a>
 </div>
 
-<div class="container mt-4">
+<!-- About Me Section -->
+<div id="about" class="container mt-4">
     <h2 class="text-center">About Me</h2>
     <div class="summary text-center">
         <p>I am Renil Soni, a dedicated Java Developer with two years of hands-on experience in backend development. I hold a postgraduate degree in Information Technology Solutions from Humber College and am currently pursuing Oracle Java SE 8 Programmer I certification. My expertise lies in designing and developing scalable backend systems with a strong focus on clean code, performance, and modern technologies.</p>
@@ -56,7 +88,8 @@
     </div>
 </div>
 
-<div class="container mt-5">
+<!-- Skills Section -->
+<div id="skills" class="container mt-5">
     <h2 class="text-center">Skills</h2>
     <div class="skills">
         <div class="skill">Java 8-11</div>
@@ -100,7 +133,8 @@
     </div>
 </div>
 
-<div class="container mt-5">
+<!-- GitHub Stats Section -->
+<div id="stats" class="container mt-5">
     <h2 class="text-center">GitHub Stats</h2>
     <div class="stat-card text-center">
         <img src="https://streak-stats.demolab.com/?user=renilsoni&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="GitHub streak graph" />
