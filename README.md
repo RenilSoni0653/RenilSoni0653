@@ -13,6 +13,12 @@
             height: 150px;
             border-radius: 50%;
         }
+        .summary {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
         .skills {
             display: flex;
             flex-wrap: wrap;
@@ -40,15 +46,15 @@
     <img src="images/profile.JPG" alt="Renil Soni's Profile Picture" class="profile-img" />
     <h1>Renil Soni</h1>
     <h3>Java Developer | Backend Specialist</h3>
-    <div>
-        <a href="https://www.linkedin.com/in/renil-soni" class="btn btn-primary">LinkedIn</a>
-    </div>
+    <a href="https://www.linkedin.com/in/renil-soni" class="btn btn-primary mb-4">Connect on LinkedIn</a>
 </div>
 
 <div class="container mt-4">
     <h2 class="text-center">About Me</h2>
-    <p class="text-center">I am Renil Soni, a dedicated Java Developer with two years of hands-on experience in backend development. I hold a postgraduate degree in Information Technology Solutions from Humber College and am currently pursuing Oracle Java SE 8 Programmer I certification. My expertise lies in designing and developing scalable backend systems with a strong focus on clean code, performance, and modern technologies.</p>
-    <p class="text-center">Driven by curiosity and a passion for technology, I continually strive to enhance my skills and stay updated on industry trends. I thrive in collaborative environments and enjoy solving complex technical challenges.</p>
+    <div class="summary text-center">
+        <p>I am Renil Soni, a dedicated Java Developer with two years of hands-on experience in backend development. I hold a postgraduate degree in Information Technology Solutions from Humber College and am currently pursuing Oracle Java SE 8 Programmer I certification. My expertise lies in designing and developing scalable backend systems with a strong focus on clean code, performance, and modern technologies.</p>
+        <p>Driven by curiosity and a passion for technology, I continually strive to enhance my skills and stay updated on industry trends. I thrive in collaborative environments and enjoy solving complex technical challenges.</p>
+    </div>
 </div>
 
 <div class="container mt-5">
