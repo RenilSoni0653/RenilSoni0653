@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,6 +18,7 @@
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
         }
         .skills {
             display: flex;
@@ -42,6 +44,25 @@
         }
         .navbar {
             margin-bottom: 30px;
+        }
+        /* Responsive adjustments */
+        @media (min-width: 768px) {
+            .profile-img {
+                height: 200px;
+            }
+            .summary {
+                padding: 30px;
+                margin-top: 40px;
+            }
+        }
+        @media (min-width: 1024px) {
+            .container {
+                max-width: 900px;
+            }
+            .skills {
+                justify-content: flex-start;
+                padding-left: 20px;
+            }
         }
     </style>
 </head>
@@ -71,6 +92,7 @@
   </div>
 </nav>
 
+<!-- Profile Section -->
 <div class="container text-center mt-5">
     <img src="images/profile.JPG" alt="Renil Soni's Profile Picture" class="profile-img" />
     <h1>Renil Soni</h1>
