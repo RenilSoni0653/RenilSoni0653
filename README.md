@@ -26,7 +26,7 @@ I’m Renil Soni, a passionate Java developer with two years of experience, spec
 ## 🛠 Skills
 
 ### **Programming Languages**
-- **Java 8**, GraphQL, HTML5, CSS3, Bootstrap, JavaScript (ES6/ES7), PL/SQL
+- **Java 8-17**, GraphQL, HTML5, CSS3, Bootstrap, JavaScript (ES6/ES7), PL/SQL
 
 ### **Frameworks & Libraries**
 - Spring Boot, Hibernate, Log4J, REST API, Microservices, JSON, JWT, WebSocket
@@ -35,7 +35,7 @@ I’m Renil Soni, a passionate Java developer with two years of experience, spec
 - MySQL, Oracle 10g, MongoDB
 
 ### **Version Control & Collaboration**
-- Git, GitHub, Bitbucket, Jira, Asana
+- GitHub, Bitbucket, Jira, Asana
 
 ### **Tools**
 - Docker, Maven, Postman, Swagger, SoapUI
