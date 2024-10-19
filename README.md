@@ -1,169 +1,68 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Renil Soni's Portfolio</title>
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .profile-img {
-            height: 150px;
-            border-radius: 50%;
-        }
-        .summary {
-            background: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-        }
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 15px;
-        }
-        .skill {
-            background: #007bff;
-            color: white;
-            border-radius: 5px;
-            padding: 10px 15px;
-            font-size: 0.9rem;
-        }
-        .stat-card {
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-        }
-        .nav-link {
-            color: white !important;
-        }
-        .navbar {
-            margin-bottom: 30px;
-        }
-        /* Responsive adjustments */
-        @media (min-width: 768px) {
-            .profile-img {
-                height: 200px;
-            }
-            .summary {
-                padding: 30px;
-                margin-top: 40px;
-            }
-        }
-        @media (min-width: 1024px) {
-            .container {
-                max-width: 900px;
-            }
-            .skills {
-                justify-content: flex-start;
-                padding-left: 20px;
-            }
-        }
-    </style>
-</head>
-<body>
+i have uploaded github pages, now i want to update my code in readme.md file
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Renil Soni</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#skills">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#stats">GitHub Stats</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.linkedin.com/in/renil-soni" target="_blank">LinkedIn</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<!-- Profile Section -->
-<div class="container text-center mt-5">
-    <img src="images/profile.JPG" alt="Renil Soni's Profile Picture" class="profile-img" />
-    <h1>Renil Soni</h1>
-    <h3>Java Software Developer</h3>
-    <a href="https://www.linkedin.com/in/renil-soni" class="btn btn-primary mb-4">Connect on LinkedIn</a>
+<div align="center">
+  <img height="150" src="images/profile.JPG" alt="Renil Soni's Profile Picture" />
 </div>
 
-<!-- About Me Section -->
-<div id="about" class="container mt-4">
-    <h2 class="text-center">About Me</h2>
-    <div class="summary text-center">
-        <p>I am Renil Soni, a dedicated Java Developer with two years of hands-on experience in backend development. I hold a postgraduate degree in Information Technology Solutions from Humber College and am currently pursuing Oracle Java SE 8 Programmer I certification. My expertise lies in designing and developing scalable backend systems with a strong focus on clean code, performance, and modern technologies.</p>
-        <p>Driven by curiosity and a passion for technology, I continually strive to enhance my skills and stay updated on industry trends. I thrive in collaborative environments and enjoy solving complex technical challenges.</p>
-    </div>
+---
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/renil-soni"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="LinkedIn logo" /></a>
 </div>
 
-<!-- Skills Section -->
-<div id="skills" class="container mt-5">
-    <h2 class="text-center">Skills</h2>
-    <div class="skills">
-        <div class="skill">Java 8-11</div>
-        <div class="skill">GraphQL</div>
-        <div class="skill">HTML5</div>
-        <div class="skill">CSS3</div>
-        <div class="skill">JavaScript (ES6/ES7)</div>
-        <div class="skill">PL/SQL</div>
-        <div class="skill">Spring Boot</div>
-        <div class="skill">Hibernate</div>
-        <div class="skill">Log4J</div>
-        <div class="skill">REST API</div>
-        <div class="skill">Microservices</div>
-        <div class="skill">JWT</div>
-        <div class="skill">WebSocket</div>
-        <div class="skill">MySQL</div>
-        <div class="skill">Oracle 10g</div>
-        <div class="skill">MongoDB</div>
-        <div class="skill">GitHub</div>
-        <div class="skill">Bitbucket</div>
-        <div class="skill">Jira</div>
-        <div class="skill">Asana</div>
-        <div class="skill">Docker</div>
-        <div class="skill">Maven</div>
-        <div class="skill">Postman</div>
-        <div class="skill">Swagger</div>
-        <div class="skill">SoapUI</div>
-        <div class="skill">JUnit</div>
-        <div class="skill">Mockito</div>
-        <div class="skill">Windows</div>
-        <div class="skill">Mac OS X</div>
-        <div class="skill">Linux</div>
-        <div class="skill">Agile</div>
-        <div class="skill">Waterfall</div>
-        <div class="skill">IntelliJ IDEA</div>
-        <div class="skill">Eclipse</div>
-        <div class="skill">Visual Studio</div>
-        <div class="skill">AWS</div>
-        <div class="skill">Tomcat</div>
-        <div class="skill">CI/CD Pipelines</div>
-    </div>
-</div>
 
-<!-- GitHub Stats Section -->
-<div id="stats" class="container mt-5">
-    <h2 class="text-center">GitHub Stats</h2>
-    <div class="stat-card text-center">
-        <img src="https://streak-stats.demolab.com/?user=renilsoni&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="GitHub streak graph" />
-    </div>
-</div>
+<h1 align="center">Renil Soni</h1>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<h3 align="center">Java Developer</h3>
 
-</body>
-</html>
+---
+
+## 🧑‍💻 About Me
+
+I’m Renil Soni, a passionate Java developer with two years of experience, specializing in backend development. I hold a degree in Information Technology Solutions from Humber College and am currently pursuing Oracle Java SE 8 Programmer I certification. I'm driven by my curiosity to explore new technologies and continuously improve my skills through challenging projects.
+
+---
+
+## 🛠 Skills
+
+### **Programming Languages**
+- **Java 8**, GraphQL, HTML5, CSS3, Bootstrap, JavaScript (ES6/ES7), PL/SQL
+
+### **Frameworks & Libraries**
+- Spring Boot, Hibernate, Log4J, REST API, Microservices, JSON, JWT, WebSocket
+
+### **Database**
+- MySQL, Oracle 10g, MongoDB
+
+### **Version Control & Collaboration**
+- Git, GitHub, Bitbucket, Jira, Asana
+
+### **Tools**
+- Docker, Maven, Postman, Swagger, SoapUI
+
+### **Testing**
+- JUnit, Mockito
+
+### **Operating Systems**
+- Windows, Mac OS X, Linux
+
+### **SDLC Methodologies**
+- Waterfall, Agile
+
+### **IDEs**
+- IntelliJ IDEA, Eclipse, Visual Studio
+
+### **Cloud Services & DevOps**
+- Amazon Web Services (AWS), Tomcat, CI/CD Pipelines
+
+### **Other Skills**
+- Problem-solving, attention to detail, effective communication, adaptability, data structures, algorithms, software design, and object-oriented programming
+
+---
+
+## 🔥 My GitHub Stats
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=renilsoni&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph" />
+</div> 
+to make professional
