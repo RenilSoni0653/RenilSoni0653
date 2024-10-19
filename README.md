@@ -59,7 +59,7 @@
 <div class="container mt-5">
     <h2 class="text-center">Skills</h2>
     <div class="skills">
-        <div class="skill">Java 8</div>
+        <div class="skill">Java 8-11</div>
         <div class="skill">GraphQL</div>
         <div class="skill">HTML5</div>
         <div class="skill">CSS3</div>
@@ -75,7 +75,6 @@
         <div class="skill">MySQL</div>
         <div class="skill">Oracle 10g</div>
         <div class="skill">MongoDB</div>
-        <div class="skill">Git</div>
         <div class="skill">GitHub</div>
         <div class="skill">Bitbucket</div>
         <div class="skill">Jira</div>
