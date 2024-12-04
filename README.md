@@ -63,4 +63,3 @@ I’m Renil Soni, a passionate Java developer with two years of experience, spec
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=renilsoni&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph" />
 </div> 
-to make professional
