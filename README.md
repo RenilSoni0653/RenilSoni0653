@@ -1,5 +1,3 @@
-i have uploaded github pages, now i want to update my code in readme.md file
-
 <div align="center">
   <img height="150" src="images/profile.JPG" alt="Renil Soni's Profile Picture" />
 </div>
